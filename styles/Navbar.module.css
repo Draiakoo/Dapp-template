@@ -1,0 +1,40 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 2rem 4rem 0.8rem 4rem;
+	gap: 2rem;
+	margin-bottom: 4rem;
+}
+
+.logoImage {
+	border-radius: 50%;
+}
+
+.flexed {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.alchemy_logo{
+	width: 6rem;
+	cursor: pointer;
+}
+
+.githubButton {
+	padding: 10px;
+	border: transparent;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 20%;
+}
+
+.githubButton:hover {
+	cursor: pointer;
+	box-shadow: 3px 2px 8px black;
+}
